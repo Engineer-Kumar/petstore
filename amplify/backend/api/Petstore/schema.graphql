@@ -1,0 +1,9 @@
+type Petstore @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String!
+  Age: Int!
+  About: String!
+  Breed: String!
+  Colour: String!
+  Image: String!
+}
